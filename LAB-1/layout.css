@@ -1,0 +1,42 @@
+#container {
+	position: static;
+}
+
+#container{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+article{
+	padding: 4px;
+	padding-bottom: 8px; 
+}
+
+.rel{
+	position: relative;
+	padding-bottom: 0px;
+	margin-left: 20px;
+}
+
+.abso{
+	position: absolute;
+}
+
+.art_abso{
+	padding: 0px;
+	float: right;
+	width: 40%;
+}
+
+.fix{
+	position: fixed;
+	margin-left: 20%;
+}
+
+.art_fix{
+	padding: 0px;
+}
+
+.titulo_float{
+	float: left;
+}

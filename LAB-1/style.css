@@ -1,0 +1,11 @@
+* {
+	background-color: gray;
+}
+
+#container{
+	border: 2px solid black; 
+}
+
+.abso, .fix{
+	background-color: darkgray;
+}
