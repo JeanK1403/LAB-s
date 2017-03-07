@@ -7,6 +7,7 @@
 	margin-right: 30%;
 }
 
+
 article{
 	padding: 4px;
 	padding-bottom: 8px; 
@@ -39,4 +40,14 @@ article{
 
 .titulo_float{
 	float: left;
+}
+
+.colum-1, .colum-2, .colum{
+	width: 60%;
+	float: left;
+	margin: 10px;
+}
+
+.colum-2, .colum{
+	width: 30%;
 }
