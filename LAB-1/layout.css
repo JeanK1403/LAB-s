@@ -50,7 +50,7 @@ article{
 
 
 /*fixed-width-layout*/
-body{
+#body{
 	width: 960px;
 	margin: 0 auto;
 }
@@ -67,6 +67,10 @@ body{
 	margin: 10px;
 }
 
+#footer{
+	margin-top: 60px;
+}
+
 .colum1, .colum2, .colum3 {
 	background-color: #efefef;
 	width: 300px;
@@ -75,21 +79,48 @@ body{
 }
 
 u, u li {
-    /*float: left;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;*/
     background-color: #efefef;
     display: inline;
     padding: 5px;
 }
 
-/*
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}*/
+/*liquid-width-layout*/
+
+#bodyL{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#bodyL #nav, #bodyL #feature, #bodyL #footer{
+	margin: 1%;
+}
+
+#bodyL #footer{
+	margin-top: 240px;
+}
+
+#bodyL .colum1, #bodyL .colum2, #bodyL .colum3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+#bodyL .colum3{
+	margin-right: 0%;
+}
+
+#bodyL #nav, #bodyL #footer{
+	padding: 0.5em 0;
+}
+
+#bodyL #feature, #bodyL .article{
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #efefef;
+}
+
+#bodyL u, u li {
+    background-color: #efefef;
+    display: inline;
+    padding: 0.5em;
+}
