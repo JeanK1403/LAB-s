@@ -1,0 +1,17 @@
+@import url("table.css");
+
+body{
+	border: 2px dotted black;
+	padding: 20px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h3{
+	color: blue;
+	margin-top: 0px;
+}
+
+h1{
+	margin-bottom: 0px;
+}

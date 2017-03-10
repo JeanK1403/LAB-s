@@ -124,3 +124,37 @@ u, u li {
     display: inline;
     padding: 0.5em;
 }
+
+/*Grid layout*/
+
+#bodyG{
+	width: 940px;
+	margin: 0 auto;
+}
+
+#bodyG #nav, #bodyG #feature, 
+#bodyG #footer, #bodyG .article{
+	background-color: #efefef;
+	margin-top: 20px;
+	padding: 10px 0px 5px 0px;
+}
+
+#bodyG #feature, #bodyG .article{
+	height: 100px;
+}
+
+#bodyG .colum1, #bodyG .colum2, #bodyG .colum3 {
+	width: 300px;
+	float: left;
+	margin: 6.5px;
+}
+
+#bodyG #footer{
+	margin-top: 180px;
+}
+
+#bodyG u, u li {
+    background-color: #efefef;
+    display: inline;
+    padding: 5px;
+}

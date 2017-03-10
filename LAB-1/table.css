@@ -1,0 +1,19 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	width: 300px;
+}
+
+th{
+	background-color: steelblue;
+	padding: 4px;
+	color: white;
+}
+
+td{
+	background-color: lightblue;	
+	padding: 4px;
+}
