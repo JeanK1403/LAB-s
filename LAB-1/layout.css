@@ -90,10 +90,11 @@ article{
 	margin: 10px;
 }
 
-u, u li {
+ul, ul li {
     background-color: #efefef;
     display: inline;
     padding: 5px;
+    text-decoration: underline;
 }
 
 /*liquid-width-layout*/
@@ -131,7 +132,7 @@ u, u li {
 	background-color: #efefef;
 }
 
-#bodyL u, u li {
+#bodyL ul, ul li {
     background-color: #efefef;
     display: inline;
     padding: 0.5em;
