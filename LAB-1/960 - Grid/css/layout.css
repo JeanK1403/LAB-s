@@ -1,0 +1,46 @@
+
+body {
+  height: auto;
+  padding-bottom: 20px;
+  min-width: 960px;
+}
+
+p{
+	position: absolute;
+	margin: 38px 455px 38px 455px;
+}
+
+.grid_5 p{
+	margin: 38px 125px 38px 125px;
+}
+
+.container_12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.container_12 .grid_11, .container_12 .grid_5{
+	height: 100px;
+}
+
+.container_12 .grid_12, .container_12 .grid_11 {
+  width: 940px;
+}
+
+.container_12 .grid_6, .container_12 .grid_5 {
+  width: 300px;
+}
+
+.grid_6,
+.grid_12,
+.grid_5,
+.grid_11 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 20px;
+  overflow: hidden;
+}
