@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Laboratorio JS y JQuery</title>
+</head>
+
+<body>
+
+    <h1>Laboratorio JS y JQuery</h1>
+    <ul>
+        <li id="thing1">thing 1</li>
+        <li>thing 2</li>
+        <li>thing 3</li>
+        <li class="special">thing 4</li>
+        <li>thing 5</li>
+        <li class="special">thing 6</li>
+    </ul>
+
+
+    <ul id="languages">
+        <li>Mandarin</li>
+        <li>English
+            <ul class="greetings">
+                <li class="main-greeting">Hi</li>
+                <li>Hello</li>
+                <li>Slang
+                    <ul data-troy>
+                        <li>What's up doc?</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Hindustani</li>
+        <li data-troy="true">Spanish</li>
+        <li>Russian</li>
+        <li>Arabic</li>
+        <li>Bengali</li>
+        <li>Portuguese</li>
+        <li>Malay-Indonesian</li>
+        <li>French</li>
+    </ul>
+    <ul>
+        <li data-employee="Bob Metz">Bob Metz</li>
+        <li data-employee="Billy Bob Jones">Billy Jones</li>
+        <li data-employee="Laura Jones-Bob">Laura Jones-Bob</li>
+    </ul>
+
+    <a href="example.html" lang="en">American English</a>
+    <a href="example.html" lang="en-UK">English English</a>
+    <a href="example.html" lang="es">Spanish</a>
+    <a href="example.html" lang="fr">French</a>
+    <a href="example.html" lang="de">German</a>
+    <a href="example.html" lang="ch">Chinese</a>
+    <a href="example.html" lang="ko">Korean</a>
+    <a href="example.html" lang="en-and-es">Spanglish</a>
+
+
+    <div>
+        <p>I am the first child of div #1.</p>
+
+        <p>I am the second child of div #1.</p>
+
+        <p>I am the third child of div #1.</p>
+
+        <p>I am the fourth child of div #1.</p>
+
+        <p>I am the fifth child of div #1.</p>
+    </div>
+    <div>
+        <p>I am the first child of div #2.</p>
+
+        <p>I am the second child of div #2.</p>
+
+        <p>I am the third child of div #2.</p>
+    </div>
+    <div>
+        <p>I am the only child of div #3.</p>
+        <span>Here is some text</span>
+    </div>
+    <div>
+        <form title="Calcular Fecha de Nacimiento">
+            <input type="text" id="name" name="name" value="">
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" value="">
+            <button type="button" id="btn_calcular_edad">Calcular Edad</button>
+            <br/>
+            <textarea rows="4" cols="50" disabled id="mostrarResultado">Resultado</textarea>
+        </form>
+    </div>
+</body>
+
+</html>
