@@ -1,18 +1,23 @@
 
-
+//Funcion anonima
 var mostrarResultados = function(texto, estilo){
-	/*$('#mostrarResultado').text(texto);*/
-	/*alert(texto);*/
-	$("#" + estilo).text(texto);
+	if(estilo)
+		$("#" + estilo).text(texto).css("background-color", "lightgreen");	
+	else
+		$("#mostrarResultado").text(texto).css("background-color", "lightblue");
 }
 
 $(document).ready(function(){
+	
+	//Para usar la funcion constructora
 	$('#btn_calcular_edad').click(function(){
 		var nombre = $('#name').val();
 		var fecha = new Date($('#fecha_nacimiento').val());
 		var u = new usuario(nombre, fecha);
 		u.presentarse();
 	});
+
+	/*mostrarResultados("Jean", "");*/
 });
 
 
