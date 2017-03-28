@@ -44,3 +44,15 @@ function usuario(nombre, fecha) {
     	mostrarResultados("Hola, mi nombre es " + nombre + " y tengo " + edad + " años", "mostrarResultado");
     };
 }
+
+
+
+$(document).ready(function(){
+	$('#btn_azul').click(function(){
+		var v = $('#thing1');
+		$('#mostrarResultado')
+			.text($('#thing1').val())
+			.css("background-color", "blue")
+			.css("color", "white");
+	});
+});
