@@ -2,12 +2,16 @@
 
 var mostrarResultados = function(texto, estilo){
 	/*$('#mostrarResultado').text(texto);*/
-	alert(texto);
+	/*alert(texto);*/
+	$("#" + estilo).text(texto);
 }
 
 $(document).ready(function(){
 	$('#btn_calcular_edad').click(function(){
-		mostrarResultados("texto", "css");
+		var nombre = $('#name').val();
+		var fecha = new Date($('#fecha_nacimiento').val());
+		var u = new usuario(nombre, fecha);
+		u.presentarse();
 	});
 });
 
@@ -19,10 +23,10 @@ function usuario(nombre, fecha) {
 
     //Metodo privado
  	var calcularEdad = function() {
-            var actual = new Date().getYear();
-            var nacimiento = fecha.getYear();
+            var actual = new Date().getFullYear();
+            var nacimiento = fecha.getFullYear();
  
-            if (actual <= nacimiento)
+            if (actual < nacimiento)
                 edad = "Error: no se ha podido calcular";
             else
                 edad = actual - nacimiento;
@@ -32,6 +36,6 @@ function usuario(nombre, fecha) {
     this.presentarse = function(){
     	calcularEdad();
 
-    	mostrarResultados("Hola, mi nombre es " + nombre + " y tengo " + edad + " años", );
+    	mostrarResultados("Hola, mi nombre es " + nombre + " y tengo " + edad + " años", "mostrarResultado");
     };
 }
