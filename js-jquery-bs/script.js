@@ -48,12 +48,36 @@ function usuario(nombre, fecha) {
 
 //[JQuery] Básico
 
+//1 - Id Selector
 $(document).ready(function(){
 	$('#btn_azul').click(function(){
-		var v = $('#thing1');
 		$('#mostrarResultado')
-			.text($('#thing1').val())
+			.text($('#thing1').text())
 			.css("background-color", "blue")
 			.css("color", "white");
 	});
 });
+
+//2 - class Selector
+$(document).ready(function(){
+	$('#btn_rojo').click(function(){
+		$('#mostrarResultado')
+			.text($('.main-greeting').text())
+			.css("background-color", "red")
+			.css("color", "white");
+	});
+});
+
+//3 - tag Selector
+$(document).ready(function(){
+	$('#btn_verde').click(function(){
+		$('#mostrarResultado')
+			.text($('h1').text())
+			.css("background-color", "green")
+			.css("color", "white");
+	});
+});
+
+//4 - Funcion generica
+
+//5 - child and descendat
