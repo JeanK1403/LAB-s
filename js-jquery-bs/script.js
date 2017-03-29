@@ -78,6 +78,24 @@ $(document).ready(function(){
 	});
 });
 
-//4 - Funcion generica
+//4 - Alteración de contenido entre dos selectores
+$(document).ready(function(){
+	$('#btn_amarillo').click(function(){
+		$('.main-greeting').append($('#thing1').text()).text();
+		$('#mostrarResultado')
+			.text($('.main-greeting').text())
+			.css("background-color", "yellow")
+			.css("color", "black");
+	});
+});
 
-//5 - child and descendat
+//5 - child and descendat selectors
+$(document).ready(function(){
+	$('#btn_amarillo').click(function(){
+		$('.main-greeting').append($('#thing1').text()).text();
+		$('#mostrarResultado')
+			.text($('.main-greeting').text())
+			.css("background-color", "pink")
+			.css("color", "black");
+	});
+});
