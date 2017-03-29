@@ -91,10 +91,9 @@ $(document).ready(function(){
 
 //5 - child and descendat selectors
 $(document).ready(function(){
-	$('#btn_amarillo').click(function(){
-		$('.main-greeting').append($('#thing1').text()).text();
+	$('#btn_rosado').click(function(){
 		$('#mostrarResultado')
-			.text($('.main-greeting').text())
+			.text($('div form #btn_calcular_edad').text())
 			.css("background-color", "pink")
 			.css("color", "black");
 	});
