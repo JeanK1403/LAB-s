@@ -46,6 +46,7 @@ function usuario(nombre, fecha) {
 }
 
 
+//[JQuery] Básico
 
 $(document).ready(function(){
 	$('#btn_azul').click(function(){
