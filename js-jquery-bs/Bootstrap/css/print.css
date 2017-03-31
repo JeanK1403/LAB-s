@@ -1,0 +1,62 @@
+*{
+	width: 100%;
+	margin: 0px;
+	padding: 2px;
+	font-family: cursive;
+}
+
+img, 
+.intro-header, 
+.navbar-header button, 
+#bs-example-navbar-collapse-1, 
+.list-inline{
+	display: none;
+}
+
+a{
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    text-align: center;
+}
+
+#h3, .navbar-brand{
+	color: black;
+}
+
+#Ssection::after{
+	content: "Sub-section";
+	text-indent: 0; 	
+	display: block;
+}
+
+#Ssection{
+	color: #337ab7;
+	text-indent: -9999px;
+}
+
+#box{
+	border: none;
+	background-color: white;	
+}
+
+.unassigned{
+	text-decoration: underline;
+	color: blue;
+}
+
+#h4{
+	color: green;
+}
+
+#h5, .red{
+	color: red;
+}
+
+footer{
+	border-top: 2px solid black;
+	text-align: center;
+}
