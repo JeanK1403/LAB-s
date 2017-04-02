@@ -21,13 +21,12 @@ h6 {
     /*font-weight: 700;*/
 }
 
-nav a{
-    border-left:2px solid;
+.division{
+    color: black;
 }
 
 .home, .navbar-brand{
     color: black;
-    border-left: none;
 }
 
 .unassigned{
@@ -122,6 +121,11 @@ footer {
 
     .home{
         background-color: gray;
+    }
+
+    .division{
+        position: absolute;
+        visibility: hidden;
     }
 
     footer{
