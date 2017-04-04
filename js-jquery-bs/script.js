@@ -93,7 +93,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('#btn_rosado').click(function(){
 		$('#mostrarResultado')
-			.text($('div form #btn_calcular_edad').text())
+			.text($('body div p').text())
 			.css("background-color", "pink")
 			.css("color", "black");
 	});
