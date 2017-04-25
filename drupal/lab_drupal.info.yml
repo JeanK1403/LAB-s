@@ -1,0 +1,12 @@
+name: Lab Drupal
+type: theme
+description: This is lab drupal
+package: Custom
+core: 8.x
+libraries:
+  - lab_drupal/style
+regions:
+  header: Header
+  content: Content
+  slider: Slider
+  footer: Footer
