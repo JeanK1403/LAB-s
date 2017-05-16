@@ -1,0 +1,15 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+drupal_lab.settings:
+  type: theme_settings
+  label: 'drupal_lab settings'
+  region_wells:
+    navigation: ''
+    navigation_collapsible: ''
+    header: ''
+    highlighted: ''
+    help: ''
+    content: ''
+    sidebar_first: ''
+    sidebar_second: ''
+    footer: ''

@@ -1,0 +1,155 @@
+/**
+ * Place your custom styles here.
+ */
+
+*{
+	font-family: cursive;
+}
+
+.field-content span{
+	color: red;
+}
+
+.img-responsive{
+	width: 100%;
+	height: 330px;
+}
+
+.region-sidebar-first .field-content p:first-child {
+    border: 3px solid black;
+    background-color: #ffffe0; 
+    padding: 4px 0px 0px 10px; 
+    margin: 10px 0px;
+}
+
+.region-sidebar-first .field-content p:first-child span:nth-child(3){
+	text-decoration: underline;
+	color: blue;
+}
+
+.region-sidebar-first .field-content p:first-child span:nth-child(6){
+	text-decoration: line-through;
+	color: black;
+}
+
+
+.region-sidebar-first .view-content .views-row a:nth-child(1),
+.region-sidebar-second .view-content .views-row:nth-child(1) a{
+	font-size: 20px;
+}
+
+.region-sidebar-second .view-content .views-row:nth-child(2) a{
+	font-size: 20px;
+	color: green;
+}
+
+.region-sidebar-second .view-content .views-row:nth-child(3) a{
+	font-size: 15px;
+	color: red;
+}
+
+
+header .navbar-nav{
+	float: right;
+}
+
+.navbar-nav li{
+	border-left: 2px solid black;
+}
+
+.navbar-nav a, .navbar-default .navbar-nav>li>a{
+	color:blue;
+	text-decoration: underline;
+}
+
+.navbar-nav li:first-child{
+	border-left: none;
+}
+
+.navbar-nav li:first-child a{
+	color: black;
+}
+
+
+.col-sm-3 img{
+	width: 100%;
+}
+
+footer{
+	text-align: center;
+}
+
+footer .navbar-nav{
+	margin: 0 auto;
+    width: 27%;
+    float: none;
+}
+
+
+@media (max-width: 990px){
+	footer .navbar-nav{
+		display: none;
+	}
+}
+
+@media (max-width: 765px){
+
+	header .navbar-nav{
+		float: none;
+		text-align: center;
+	}
+
+	.navbar-nav a, .navbar-default .navbar-nav>li>a{
+		background-color: lightgray;
+	}
+
+	.navbar-nav li:first-child a{
+		background-color: gray;
+	}
+
+	.navbar-nav li{
+		border-left: none;
+		margin: 2px;
+	}
+}
+
+
+@media print{
+
+	.align-center,
+	header .navbar-nav,
+	.col-sm-12 #views-bootstrap-slider-view-block-1,
+	footer .navbar-nav{
+		display: none;
+	}
+
+	.row aside, .row section{
+		width: 100%
+	}
+
+	.region-sidebar-first .field-content p:first-child{
+		border: none;
+		background-color: white;
+	}
+
+
+	.field-content span{
+		color: red;
+	}
+
+	.region-sidebar-first .view-content .views-row a:nth-child(1),
+	.region-sidebar-second .view-content .views-row:nth-child(1) a{
+		font-size: 20px;
+	}
+
+	.region-sidebar-second .view-content .views-row:nth-child(2) a{
+		font-size: 20px;
+		color: green;
+	}
+
+	.region-sidebar-second .view-content .views-row:nth-child(3) a{
+		font-size: 15px;
+		color: red;
+	}
+
+}
