@@ -764,9 +764,9 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'lab_drupal2',#db_116000659_servicios_medicos',
-  'username' => 'root',#student',
-  'password' => '',#1234$una',
+  'database' => 'db_116000659_ServiciosMedicos',
+  'username' => 'student',
+  'password' => '1234$una',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
