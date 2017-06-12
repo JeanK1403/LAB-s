@@ -1,0 +1,11 @@
+/**
+ * Place your custom styles here.
+ */
+
+.navbar-nav{
+	float: none;
+}
+
+.navbar-nav li:last-child{
+	float: right;
+}
